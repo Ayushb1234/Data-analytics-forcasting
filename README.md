@@ -36,14 +36,14 @@ This empowers businesses to act on trends, plan ahead, and spot irregularities i
 ## 🗂️ Folder Structure
 
 📁 businessproject/
-┣ 📂 backend/ → ML models, server, data analysis
-┃ ┣ 📜 server.py → Python server with ML endpoints
-┃ ┣ 📜 requirements.txt → Python dependencies
-┃ ┣ 📂 venv/ → Virtual environment
-┣ 📂 frontend-app/
-┃ ┣ 📂 src/components/ui/card.js → Reusable React card component
-┃ ┣ 📜 App.js, index.js → React logic
-┃ ┣ 📂 public/, node_modules/ → React assets & modules
+-> 📂 backend/ → ML models, server, data analysis
+-> ┣ 📜 server.py → Python server with ML endpoints
+-> ┣ 📜 requirements.txt → Python dependencies
+-> ┣ 📂 venv/ → Virtual environment
+-> 📂 frontend-app/
+-> ┣ 📂 src/components/ui/card.js → Reusable React card component
+-> ┣ 📜 App.js, index.js → React logic
+-> ┣ 📂 public/, node_modules/ → React assets & modules
 
 
 ---
@@ -57,9 +57,11 @@ This empowers businesses to act on trends, plan ahead, and spot irregularities i
 ```bash
 git clone https://github.com/your-username/business-insights-platform.git
 cd businessproject
+```
 
 ### ⚙️ 2. Backend Setup
 
+```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate         # (On Windows)
@@ -67,16 +69,19 @@ pip install -r requirements.txt
 python server.py              # Run Flask or FastAPI server
 ```
 
+### 3. Frontend Setup (React)
+
 ```bash
- 3. Frontend Setup (React)
-bash
-Copy
-Edit
+
 cd ../frontend-app
 npm install
 npm start
 ```
+
+
 🧪 Sample Features You Can Try
+---------------------------------
+
 📤 Upload sales_data2.xlsx to see sales insights.
 
 📊 View anomaly highlights in historical data.
@@ -85,7 +90,10 @@ npm start
 
 📥 Export results as charts or reports.
 
+
 📈 Core Algorithms Used
+--------------------------
+
 Anomaly Detection: Z-score / IQR method
 
 Forecasting: Prophet or ARIMA model
@@ -95,6 +103,8 @@ Data Preprocessing: Pandas, NumPy
 Visuals: Chart.js, Matplotlib (server side), or custom cards
 
 📌 Future Enhancements
+-----------------------
+
 Integrate voice-assisted insights using NLP
 
 Multi-user dashboard with login & admin panel
@@ -102,6 +112,7 @@ Multi-user dashboard with login & admin panel
 Auto-alerts for critical anomaly thresholds
 
 🧠 Why This Matters?
+---------------------
 In the age of data-driven decisions, this project empowers small to mid-sized businesses to:
 
 ✅ Understand historical patterns
