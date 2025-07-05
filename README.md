@@ -33,9 +33,9 @@ This empowers businesses to act on trends, plan ahead, and spot irregularities i
 
 ---
 
-## 🗂️ Folder Structure
+### 🗂️ Folder Structure
 
-📁 businessproject/
+-> 📁 businessproject/
 -> 📂 backend/ → ML models, server, data analysis
 -> 📜 server.py → Python server with ML endpoints
 -> 📜 requirements.txt → Python dependencies
