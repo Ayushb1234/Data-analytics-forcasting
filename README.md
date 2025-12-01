@@ -34,17 +34,17 @@ This empowers businesses to act on trends, plan ahead, and spot irregularities i
 ---
 
 ### 🗂️ Folder Structure
-
--> 📁 businessproject/
--> 📂 backend/ → ML models, server, data analysis
--> 📜 server.py → Python server with ML endpoints
--> 📜 requirements.txt → Python dependencies
--> 📂 venv/ → Virtual environment
--> 📂 frontend-app/
--> 📂 src/components/ui/card.js → Reusable React card component
--> 📜 App.js, index.js → React logic
--> 📂 public/, node_modules/ → React assets & modules
-
+```
+📁 businessproject/
+📂 backend/ → ML models, server, data analysis
+ 📜 server.py → Python server with ML endpoints
+ 📜 requirements.txt → Python dependencies
+📂 venv/ → Virtual environment
+📂 frontend-app/
+ 📂 src/components/ui/card.js → Reusable React card component
+ 📜 App.js, index.js → React logic
+📂 public/, node_modules/ → React assets & modules
+```
 ---
 
 ## 🛠️ How to Run the Project
@@ -81,13 +81,13 @@ npm start
 🧪 Sample Features You Can Try
 ---------------------------------
 
-📤 Upload sales_data2.xlsx to see sales insights.
+1. 📤 Upload sales_data2.xlsx to see sales insights.
 
-📊 View anomaly highlights in historical data.
+2. 📊 View anomaly highlights in historical data.
 
-🔮 Generate future predictions for next months.
+3. 🔮 Generate future predictions for next months.
 
-📥 Export results as charts or reports.
+4. 📥 Export results as charts or reports.
 
 
 📈 Core Algorithms Used
