@@ -37,12 +37,12 @@ This empowers businesses to act on trends, plan ahead, and spot irregularities i
 ```
 📁 businessproject/
 📂 backend/ → ML models, server, data analysis
- 📜 server.py → Python server with ML endpoints
- 📜 requirements.txt → Python dependencies
+📜 server.py → Python server with ML endpoints
+📜 requirements.txt → Python dependencies
 📂 venv/ → Virtual environment
 📂 frontend-app/
- 📂 src/components/ui/card.js → Reusable React card component
- 📜 App.js, index.js → React logic
+📂 src/components/ui/card.js → Reusable React card component
+📜 App.js, index.js → React logic
 📂 public/, node_modules/ → React assets & modules
 ```
 ---
