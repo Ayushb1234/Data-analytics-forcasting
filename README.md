@@ -77,7 +77,7 @@ npm install
 npm start
 ```
 
-Scrreenshots of Project:
+Screenshots of Project:
 ------------------------
 <img width="1830" height="954" alt="image" src="https://github.com/user-attachments/assets/7543dd4a-39b5-4b20-b370-1e101253535d" />
 <img width="1689" height="960" alt="image" src="https://github.com/user-attachments/assets/829cf541-6a84-4d3d-8345-9a2632a95583" />
